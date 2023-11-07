@@ -1,0 +1,29 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("R\ \(1\).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#flexbox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+#form{
+    width: 40%;
+    border-radius: 1em;
+    padding-left: 2em;
+    padding-top: 2em;
+    height: fit-content;
+    padding-bottom: 4em;
+    background-color: white;
+}
+form>div{
+    margin-bottom: 1em;
+}
+input{
+    margin-left: 2em;
+    width:50%;
+}

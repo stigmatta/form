@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Заказать суши онлайн</h1>
+        <div id = "flexbox">
+            <div id = "form">
+                <h4>Контактная информация</h4>
+                <div class = "inline-label">
+                    <label>Имя</label>
+                    <input type="text" name="name">
+                </div>
+                <div class = "inline-label">
+                    <label>Фамилия</label>
+                    <input type="text" name="surname">
+                </div>
+                <br>
+                <div class = "block-label">
+                    <label>Номер телефона</label>
+                    <input type = "text" name="phone-number">
+                </div>
+                <div class = "block-label">
+                    <label>E-mail</label>
+                    <input type = "email" name = "email">
+                </div>
+                <h4>Подробная информация</h4>
+                <div class = "inline-label">
+                    <label>Вид палочек:</label>
+                    <input type = "radio" name = "stick-type">Обычные
+                    <input type = "radio" name = "stick-type">Учебные
+                </div>
+                <div class = "block-label">
+                    <select name="sushi" id="sushi-select">
+                        <option value="" selected disabled>Выберите суши</option>
+                        <option value="spicy-tuna">Спайси тунец ролл</option>
+                        <option value="philadelphia">Ролл Филадельфия</option>
+                        <option value="unagi">Ролл Унаги</option>
+                        <option value="california">Ролл Калифорния</option>
+                    </select>
+                </div>
+                <div class = "block-label">
+                    <label>Дополнительные салфетки</label>
+                    <input type = "checkbox">
+                </div>
+                <div class = "block-label">
+                    <label>Комментарий</label>
+                    <br>
+                    <input type = "text" name = "comment" style = "height: 10em;">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

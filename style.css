@@ -1,0 +1,52 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    color:rgb(35, 35, 126);
+    margin-left: 12em;
+}
+#flexbox{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+#form{
+    width:50%;
+    height:fit-content;
+    background-color: rgb(35, 35, 126);
+    color:white;
+    padding-left: 2em;
+    padding-bottom: 4em;
+}
+#form>h4{
+    height: fit-content;
+    width:fit-content;
+}
+#form>div{
+    margin-left: 1em;
+}
+
+.inline-label{
+    display: inline;
+    margin-right: 2em;
+    margin-top: 2em;
+}
+.inline-label>input{
+    width:30%;
+    height: 1.5em;
+}
+.block-label{
+    display: block;
+    margin-right: 2em;
+    margin-top: 2em;
+}
+.block-label>input{
+    width:60%;
+    height: 1.5em;
+}
+input[type="radio"]
+{
+    width:15%;
+}
